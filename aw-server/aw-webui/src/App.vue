@@ -7,26 +7,7 @@ div#wrapper
       router-view
 
   div.container(style="color: #555")
-    div(style="float: left")
-      div.mb-1
-        | Made with ❤ by the #[a(href="http://activitywatch.net/contributors/") ActivityWatch developers]
-      div
-        a.mr-2(href="https://github.com/ActivityWatch/activitywatch", target="_blank")
-          icon(name="brands/github")
-          | GitHub
-        a(href="https://twitter.com/ActivityWatchIt", target="_blank")
-          icon(name="brands/twitter")
-          | Twitter
-
     div(style="float: right; text-align: right;")
-      | Found a bug? #[a(href="https://github.com/ActivityWatch/activitywatch/issues/new") File an issue]
-      br
-      | Need help? #[a(href="https://forum.activitywatch.net/c/support") Ask on the forum]
-      br
-      | Missing a feature? #[a(href="https://forum.activitywatch.net/c/features") Vote on the forum]
-      br
-      | Built something cool? #[a(href="https://forum.activitywatch.net/c/projects") Share it on the forum]
-      br
       span.mt-2(v-show="info", style="color: #888; font-size: 0.8em")
         | Host: {{info.hostname}}
         br
