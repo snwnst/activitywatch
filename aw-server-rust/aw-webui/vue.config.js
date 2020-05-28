@@ -32,7 +32,7 @@ module.exports = {
     port: 27180,
   },
   pwa: {
-    name: 'ActivityWatch',
+    name: 'Acrtris',
     iconPaths: {
       favicon32: 'static/logo.png',
       favicon16: 'static/logo.png',
